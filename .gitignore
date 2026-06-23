@@ -1,1 +1,11 @@
 venv/ 
+
+
+# Ignore Raw and Processed Data
+data/raw/*.csv
+data/processed/*.csv
+
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
